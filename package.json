@@ -2,7 +2,7 @@
   "name": "shoyu",
   "version": "0.0.1",
   "description": "shows and events",
-  "main": "index.js",
+  "main": "server.js",
   "repository": "matannoam/shoyu",
   "author": "Matan Noam Shavit <matannoam@gmail.com>",
   "license": "MIT",

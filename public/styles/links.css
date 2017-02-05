@@ -1,0 +1,5 @@
+/* adapted from links.css http://mrmrs.io/links/ */
+a         { transition: color .25s; color: #1976D2; }
+a:link, a:visited                 { color: #1976D2; }
+a:hover                           { color: #64B5F6; }
+a:active  { transition: color .15s; color: #2196F3; }

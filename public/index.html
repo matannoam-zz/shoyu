@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Shoyu - go to shows</title>
+        <link rel="stylesheet" type="text/css" href="styles/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="styles/links.css" />
+        <style>
+            body { background-color: rgb(36, 56, 76); padding: 0 0.5rem; }
+            body, button { color: rgb(230, 215, 155); }
+            .card { width: 16rem; height: 20rem; float: left; padding: 0 1rem; margin: 1rem 0.5rem 0 0.5rem;}
+            .card.black { background-color: rgb(18, 20, 24); }
+            .card.red { background-color: rgb(36, 20, 24); }
+        </style>
+    </head>
+    <body>
+        <div id="app"></div>
+
+        <script src="/socket.io/socket.io.js"></script>
+        <script type="text/javascript">
+            var socket = io()
+        </script>
+        <script src="/bundle.js"></script>
+    </body>
+</html>
